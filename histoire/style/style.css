@@ -1,0 +1,163 @@
+@import url("normalize.css");
+@import url("cf.css");
+@import url("font.css");
+
+body{
+	background: black; 
+	color: #2b2b2b;
+	font-family: 'raleway',arial;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5; 
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+h1{
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/*******************************************************************/
+#container{
+	margin: 0 auto;
+    width: 1280px;
+	height: 720px;
+	
+}
+
+img{
+	height: 100%;
+	width: auto;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+/*******************************Pages principales***************************************************/
+
+/***Accueil***/
+
+
+/***Chambre = ecole***/
+
+/***Habillée = decors 1***/
+
+/***Dessiner = decors 2***/
+
+/***Mme Gina = decors 3***/
+
+/***Dessin canvas = decors 4***/
+
+#SketchPad
+{
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	width: 90%;
+	height:auto;
+	float: left;
+	margin-right: 10px;
+	background-image: url("../img/fond_coloriage.jpg");
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#SketchTools{
+	width: 8%;
+	float: left;
+	padding-top: 20px;
+	background: #fff;
+	height: 720px;
+	padding-left: 5px;
+}
+.couleur{
+	display:block;
+	width:50px;
+	height:50px;
+	text-indent:-4000px;
+	margin-bottom: 15px;
+	overflow:hidden;
+	border-radius:50%;
+	color: red;
+	right: 5px;
+}
+
+.couleur:active{
+	border: 2px solid black;
+}
+
+.decor5{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	text-indent:-4000px;
+	overflow:hidden;
+	background-image: url("../img/suivant.svg");
+	position: absolute;
+	bottom: 20px;
+}
+
+/***Dessin tableau = décors 5***/
+
+
+/***Dessin buisson barrière = decors 6***/
+
+
+/***Dessin cours arbre = decors 7***/
+
+
+/***Dessin cours arbre pleure = decors 8***/
+
+
+/***Dessin pleure tronc = decors 9***/
+
+
+/***Dessin buisson souffle = decors 10***/
+
+
+/***Dessin manon buisson = decors 11***/
+
+/***Dessin jeux saut = decors 12***/
+
+
+/***Dessin Mme Gina classe = decors 13***/
+
+/***Dessin Hector crayon = decors 14***/
+
+
+/***Dessin table crayons = decors 15***/
+
+
+/***Dessin Hector Manon Luna = decors 16***/
+
+/***Dessin cours ronde du dessus = decors 17***/
+
+
+/***Dessin cours ronde du dessus = decors 18***/
+
+/***Dessin cours ronde du dessus = decors 19***/
+
+/***Dessin choix A (rire enfants) = decors 20***/
+
+/***Dessin choix B (grondage Mme Gina) = decors 21***/
+
+/***Dessin oreille luna = decors 22***/
+
+
+/***Dessin bac a sable= decors 23***/
+
+
+/***Dessin fin= decors 24***/
+
+
+
+
+/**************************Media queries***********************************************************/
+

@@ -1,0 +1,440 @@
+@import url("normalize.css");
+@import url("cf.css");
+@import url("font.css");
+
+body{
+	background: #fff; 
+	color: #2b2b2b;
+	font-family: 'raleway',arial;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5; 
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+h1{
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/*******************************************************************/
+#container{
+	margin: 0 auto;
+    min-width: 830px; 
+    max-width: 940px; 
+    width: 100%;
+    min-height: 622px; 
+    height: 768px;
+    height: 100%;
+	
+}
+/*******************************Pages principales***************************************************/
+
+/***Accueil***/
+.ecran_rose{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_rose.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+	font-family: 'dosis',arial;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 34px;
+	padding-bottom: 20px;
+}
+.logo_luna{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+}
+.histoires{
+	width: 80%;
+	margin: 0 auto;
+}
+.histoires li{
+	float: left;
+	padding-right: 12%;
+}
+.histoires li:last-child{
+	padding-right: 0px;
+}
+li{
+	display: block;
+    text-align: center;
+}
+
+
+/***Chambre = ecole***/
+.ecran_chambre{
+	overflow: hidden;
+    position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_chambre.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.robe{
+	width: 140px;
+	position: absolute;
+	right: 14%;
+	top: 27%;
+}
+.noeud{
+	width: 90px;
+    position: absolute;
+    right: 17%;
+    top: 21%;
+}
+.parapluie{
+	width: 140px;
+    position: absolute;
+    right: 1%;
+    top: 18%;
+}
+.vetement{
+	width: 140px;
+    position: absolute;
+    right: 0%;
+    top: 27%;
+}
+.chaussure{
+	width: 110px;
+    position: absolute;
+    right: 15%;
+    bottom: 9%;
+}
+.botte{
+	width: 110px;
+    position: absolute;
+    right: 1%;
+    bottom: 9%;
+}
+.dessin_coeur{
+	width: 140px;
+    position: absolute;
+    left: 6%;
+    top: 17%;
+}
+.dessin_fleur{
+	width: 140px;
+    position: absolute;
+    left: 25%;
+    top: 6%;
+}
+.tablenuit{
+	width: 200px;
+    position: absolute;
+    left: 17%;
+    bottom: 8%;
+}
+.lit{
+	width: 410px;
+    position: absolute;
+    left: -25%;
+    bottom: 7%;
+}
+.peluche{
+	width: 80px;
+    position: absolute;
+    left: 7%;
+    bottom: 41%;
+}
+.lampe{
+	width: 87px;
+    position: absolute;
+    left: 23%;
+    bottom: 37%;
+}
+.cube_vert{
+	width: 60px;
+    position: absolute;
+    left: 33%;
+    bottom: 5%;
+}
+.cube_bleu{
+	width: 40px;
+    position: absolute;
+    left: 31%;
+    bottom: 4%;
+}
+.cube_rouge{
+	width: 35px;
+    position: absolute;
+    left: 37%;
+    bottom: 3%;
+}
+.luna_dort{
+	width: 340px;
+    position: absolute;
+    left: 33%;
+    bottom: 4%;
+}
+.sommeil{
+	width: 50px;
+    position: absolute;
+    left: 49%;
+    top: 10%;
+}
+.armoire{
+	position: absolute;
+    width: 320px;
+    right: 0%;
+    top: 10px;
+}
+
+/***Habillée = decors 1***/
+
+/***Dessiner = decors 2***/
+.ecran_table{
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+	background-image: url("../img/decors/fond_table.jpg");
+	-webkit-background-size: cover;
+    background-repeat: no-repeat;
+}
+/***Mme Gina = decors 3***/
+.ecran_ecole{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_ecole.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin canvas = decors 4***/
+
+#SketchPad
+{
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	width: 90%;
+	height:auto;
+	float: left;
+	margin-right: 10px;
+	background-image: url("../img/fond_coloriage.jpg");
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#SketchTools{
+	width: 8%;
+	float: left;
+	padding-top: 20px;
+}
+.couleur{
+	display:block;
+	width:50px;
+	height:50px;
+	text-indent:-4000px;
+	margin-bottom: 15px;
+	overflow:hidden;
+	border-radius:50%;
+	color: red;
+	right: 5px;
+}
+
+.couleur:active{
+	border: 2px solid black;
+}
+
+.decor5{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	text-indent:-4000px;
+	overflow:hidden;
+	background-image: url("../img/suivant.svg");
+	position: absolute;
+	bottom: 20px;
+}
+
+/***Dessin tableau = décors 5***/
+.ecran_classe{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_jaune.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin buisson barrière = decors 6***/
+.ecran_buissonbarriere{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_buissonbarriere.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin cours arbre = decors 7***/
+.ecran_coursarbre{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_coursarbre.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin cours arbre pleure = decors 8***/
+
+
+/***Dessin pleure tronc = decors 9***/
+.ecran_buissontronc{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_buisson.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin buisson souffle = decors 10***/
+.ecran_buissonsouffle{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_buissonentier.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin manon buisson = decors 11***/
+
+/***Dessin jeux saut = decors 12***/
+.ecran_jeuxsaut{
+	/*width: 100%;*/
+	height: 100%;
+	background-image: url("../img/decors/fond_porte.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin Mme Gina classe = decors 13***/
+
+/***Dessin Hector crayon = decors 14***/
+.ecran_classeluna{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_classe.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin table crayons = decors 15***/
+.ecran_tablebois{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_bois.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin Hector Manon Luna = decors 16***/
+
+/***Dessin cours ronde du dessus = decors 17***/
+.ecran_coursduhaut{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_sol.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin cours ronde du dessus = decors 18***/
+.ecran_jeuxballon{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_coursarbre.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin cours ronde du dessus = decors 19***/
+.ecran_coursmoquerie{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_cours.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin choix A (rire enfants) = decors 20***/
+
+/***Dessin choix B (grondage Mme Gina) = decors 21***/
+
+/***Dessin oreille luna = decors 22***/
+.ecran_oreille{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_ciel.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin bac a sable= decors 23***/
+.ecran_bacsable{
+	width: 100%;
+	height: 100%;
+	background-image: url("../img/decors/fond_sable.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/***Dessin fin= decors 24***/
+.fin{
+	font-size: 50px;
+}
+.bientot{
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 10%;
+}
+
+
+
+/**************************Media queries***********************************************************/
+
+@media only screen and (max-width: 1020px) {
+	.histoires li{
+	float: left;
+	padding-right: 5%;
+}
+
+}
+@media only screen and (max-width: 1160px) {
+
+
+}
+@media only screen and (max-width: 960px) {
+
+
+}
+@media only screen and (max-width: 900px) {
+	
+}
+@media only screen and (max-width: 800px) {
+	
+}
+@media only screen and (max-width: 620px) {
+	
+
+}

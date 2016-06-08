@@ -1,0 +1,79 @@
+@import url("normalize.css");
+@import url("cf.css");
+@import url("font.css");
+
+body{
+	background: #fff;
+	color: #2b2b2b;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5; 
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+::selection {
+	background: rgba(226, 71, 66, .8);
+	color: #fff;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+/*******************************************************************/
+.container{
+
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1{
+	font-family: "skippy-sharp",cursive;
+	font-weight: 700;
+	font-size: 65px;
+	padding: 0;
+	margin-bottom: 0;
+	color: #D34866;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin: 0;
+	padding-bottom: 50px;
+	color: #E872A2;
+}
+a{
+	width: 200px;
+	height: 50px;
+  	margin: 0 auto;
+  	margin-bottom: 45px;
+  	display: block;
+  	background: #D34866;
+  	border: 1px solid transparent;
+  	border-radius: 50px;
+  	text-align: center;
+  	line-height: 50px;
+  	color: #fff;
+  	
+  	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+a:hover{
+	background: #fff;
+	color: #D34866;
+  	border: 1px solid #D34866;
+}
